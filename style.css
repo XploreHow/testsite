@@ -393,7 +393,7 @@ footer {
 }
 /* mobile responsive 768 ///////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 768px) {
-   *{
+   body{
     overflow-x: hidden; 
   }
   .Navbar-Items {
@@ -530,7 +530,7 @@ footer {
 }
 /* mobile responsive 500 /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 500px) {
-   *{
+   body{
      overflow-x: hidden; 
   }
   .bg {
