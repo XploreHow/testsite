@@ -391,8 +391,11 @@ footer {
   line-height: 2;
   text-align: center;
 }
-
+/* mobile responsive 768 ///////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 768px) {
+   *{
+    overflow-x: hidden; 
+  }
   .Navbar-Items {
     font-size: 10px;
     display: flex;
@@ -525,7 +528,11 @@ footer {
     text-align: center;
   }
 }
+/* mobile responsive 500 /////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (max-width: 500px) {
+   *{
+     overflow-x: hidden; 
+  }
   .bg {
     margin-bottom: -3vh;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 200%, 0% 100%);
