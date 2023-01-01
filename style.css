@@ -419,6 +419,12 @@ footer {
     padding-top: 15px;
     padding-right: 100px;
   }
+  .btn-3{
+    height: fit-content;
+  }
+  .btn-5{
+    height: fit-content;
+  }
 
   .contributeWrapper {
     color: black;
