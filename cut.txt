@@ -1,0 +1,363 @@
+
+
+
+
+
+////// profile small hacker pic ////
+
+
+/////// pinned post chota img  /////////
+
+<div class='pHdr pSml'>
+													<div class='aIm'>
+														<div class='im lazy'
+															data-style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+														</div><noscript>
+															<div class='im'
+																style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+															</div>
+														</noscript>
+													</div>
+													<div class='aNm'><bdi class='nm' data-text='explore '
+															data-write='Oleh'></bdi>
+														<div class='pLbls' data-text='in'><a aria-label='Cyber Security'
+																data-text='Cyber Security'
+																href='https://www.techncyber.com/search/label/Cyber%20Security'
+																rel='tag'></a><a aria-label='Ethical Hacking'
+																data-text='Ethical Hacking'
+																href='https://www.techncyber.com/search/label/Ethical%20Hacking'
+																rel='tag'></a></div>
+													</div>
+												</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////stories////
+       	<div class='widget HTML' data-version='2' id='HTML1'>
+									<h3 class='title'>Stories</h3>
+									<div class='widget-content'>
+										<div class="scrollStory">
+											<div class="sectionInner section">
+												<div class="web-stories-list alignnone web-stories-list--customizer is-view-type-circles is-style-default has-title is-carousel"
+													data-id="1">
+													<div class="web-stories-list__inner-wrapper carousel-1"
+														style="--ws-circle-size:60px">
+														<div class="web-stories-list__carousel circles glider"
+															data-id="carousel-1">
+															<!-- <div id="mainContent"></div> -->
+															<!-- my custom id here-->
+															<div class="glider-track" style="width: 428.75px;">
+																<ul>
+																	<li id="posts"></li>
+																</ul>
+															</div>
+															<script>// BUTTON//const btnPosts = document.getElementById('btnPosts');//	btnPosts.addEventListener('click', loadPosts);function loadPosts() {const url = 'https://stories.techncyber.com/wp-json/web-stories/v1/web-story/?per_page=7&_embed=wp:featuredmedia';//console.log(url);var data;// DO AJAXfetch(url)// This is ES6 syntax for functions// we could use response function() {console.log} whih is // equivalent to response => {console.log}.then(response => {//console.log("INITAL RESPONSE WILL BE A STREAM");//console.log(response);
+																return response.json();// 404 is not an error in catch// response.ok == true to indicate in 200 range				}).then(dataArray => {// Prints result from `response.json()` in get Request					//console.log("RESPONSE.JSON()")//console.log("POSTS", dataArray)					//console.log(dataArray.length);//console.log("Number of Stories is " + dataArray.length);let outputData = ' '; //latest 10 posts
+																// JS OUTPUT...//outputData += '';for (let i = 0; i < dataArray.length; i++) {outputData += "<div class='web-stories-list__story glider-slide' data-gslide='0' style='height: auto; width: 85.75px;'><div class='web-stories-list__story-poster'><a href='" + dataArray[i].link + "'><img height='185' width='308' src='" + dataArray[i]._embedded["wp:featuredmedia"][0].source_url + "'/></a></div>" + "<div class='web-stories-list__story-content-overlay'><div class='story-content-overlay__title'>" + dataArray[i].title.rendered + "</div></div></div>";				}// INSERT OUTPUT INTO PAGEoutputData +="<div class='web-stories-list__story glider-slide' data-gslide='0' style='height: auto; width: 85.75px;'><div class='web-stories-list__story-poster'><a href='javascript:void(0) ' onclick='openNav()'><img height='185' width='308' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzludOErJPFt0WzZqWCsHi3l8nlBxNuWV53ppE7jonOyJCBUrUrT_fJbKzUo9SEaoQTtaYtJ_D0hEM8iWpgwtHCovUyyl1-QhYTN40jYe0OTb7w_gyc_B42mkVjT11xPCM_uBR3ziTgLJpHVrt9J3qqa60IzIwX73C-MDno2Uyxudh4nVfkONB8WMC/s500/story.png'/></a></div>" + "<div class='web-stories-list__story-content-overlay'><div class='story-content-overlay__title'>More</div></div></div>";
+																const main = document.getElementById('posts'); main.innerHTML = outputData;//main.className = "box";				}).catch(error => console.error(error)) // genuine netowrk errors not empty 404 response		}
+																loadPosts();</script>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="myStory" class="overlay"> <a href="javascript:void(0)" class="closebtn"
+												onclick="closeNav()">&times; </a>
+											<div class="overlay-content"
+												style="display:flex; flex-direction:column; justify-content:center;">
+												<h2>Top Stories</h2>
+												<!--<div class="scrollStory">-->
+												<div class="sectionInner section">
+													<div class="web-stories-list alignnone web-stories-list--customizer is-view-type-circles is-style-default has-title is-carousel"
+														data-id="1">
+														<div class="web-stories-list__inner-wrapper carousel-1"
+															style="--ws-circle-size:60px">
+															<div class="web-stories-list__carousel circles glider"
+																data-id="carousel-1">
+																<div class="glider-track" style="width: 428.75px;">
+																	<ul>
+																		<li style="list-style: none;" id="story"></li>
+																	</ul>
+																	<!--</div>-->
+																	<script>function loadStories() {
+																			let stories = ''; const story = document.getElementById('story'); const url = 'https://stories.techncyber.com/wp-json/web-stories/v1/web-story/?per_page=20&_embed=wp:featuredmedia';
+																			fetch(url).then(data => { return data.json(); }).then(storyList => { for (let i = 0; i < storyList.length; i++) { stories += "<div class='web-stories-list__story glider-slide' data-gslide='5' style='height: auto; width: 85.75px;'><div class='web-stories-list__story-poster'><a href='" + storyList[i].link + "'><img height='185' width='308' src='" + storyList[i]._embedded["wp:featuredmedia"][0].source_url + "'/></a></div>" + "<div class='web-stories-list__story-content-overlay'><div class='story-content-overlay__title'>" + storyList[i].title.rendered + "</div></div></div>"; } story.innerHTML = stories; }).catch(err => console.log(err));
+																		}</script>
+
+																</div>
+															</div>
+															<script> function openNav() {//call the loadStoriesloadStories(); document.getElementById("myStory").style.height = "100%"; }
+																	function closeNav() { document.getElementById("myStory").style.height = "0%"; } </script>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+                                    </div>                  
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        <!--ART4-->
+										<article class='ntry'>
+											<div class='pThmb'><a class='thmb'
+													href='https://www.techncyber.com/2022/12/sqlmap-in-termux.html'><img
+														alt='How to use sqlmap in termux' class='imgThm lazy'
+														data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZuWAZmu9x_4WkWU0V-TLxP_-QCDZwU4QLFfF3-sGiPC_9wm8EEpKoCjcundhWdsK0itPO-iA21T6cJuO3hwbdGtInaMIbKPt7bM_wYD1SdUv8fvosrpQNq9768UW5TWAi90DZVVnghBc-gDB1hte4mwvWqwHcMx4uyjcDVaOhtUXmHEaxq72O5zvo/w600-h300-p-k-no-nu/sqlmap.png'
+														src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' /><noscript><img
+															alt='How to use sqlmap in termux' class='imgThm'
+															src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZuWAZmu9x_4WkWU0V-TLxP_-QCDZwU4QLFfF3-sGiPC_9wm8EEpKoCjcundhWdsK0itPO-iA21T6cJuO3hwbdGtInaMIbKPt7bM_wYD1SdUv8fvosrpQNq9768UW5TWAi90DZVVnghBc-gDB1hte4mwvWqwHcMx4uyjcDVaOhtUXmHEaxq72O5zvo/w600-h300-p-k-no-nu/sqlmap.png' /></noscript></a>
+											</div>
+											<div class='pCntn'>
+												<div class='pHdr pSml'>
+													<div class='aIm'>
+														<div class='im lazy'
+															data-style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+														</div><noscript>
+															<div class='im'
+																style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+															</div>
+														</noscript>
+													</div>
+													<div class='aNm'><bdi class='nm' data-text='explore '
+															data-write='Oleh'></bdi>
+														<div class='pLbls' data-text='in'><a aria-label='Bug Bounty'
+																data-text='Bug Bounty'
+																href='https://www.techncyber.com/search/label/Bug%20Bounty'
+																rel='tag'></a><a aria-label='Cyber Security'
+																data-text='Cyber Security'
+																href='https://www.techncyber.com/search/label/Cyber%20Security'
+																rel='tag'></a></div>
+													</div>
+												</div>
+												<h2 class='pTtl aTtl'><a data-text='How to use sqlmap in termux'
+														href='https://www.techncyber.com/2022/12/sqlmap-in-termux.html'
+														rel='bookmark'>How to use sqlmap in termux</a></h2>
+												<div class='pSnpt'>Hello there, In this tutorial, we will be discussing
+													how to install and use Sqlmap in termux What is Sqlmap? Sqlmap is an
+													automatic SQL Inj&#8230;</div>
+												<div class='pInf pSml'><time class='aTtmp pTtmp pbl'
+														data-text='Dec 8, 2022' datetime='2022-12-08T08:10:00+05:30'
+														title='Published: December 8, 2022'></time><a
+														aria-label='Read more' class='pJmp' data-text='Keep reading'
+														href='https://www.techncyber.com/2022/12/sqlmap-in-termux.html'></a>
+												</div>
+												<script
+													type='application/ld+json'> { "@context": "http://schema.org", "@type": "BlogPosting", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.techncyber.com/2022/12/sqlmap-in-termux.html" }, "headline": "How to use sqlmap in termux", "description": "Hello there, In this tutorial, we will be discussing how to install and use Sqlmap in termux What is Sqlmap? Sqlmap is an automatic SQL Injection scanner and exploitation tool written in Python. We use this tool to detect SQL injection v&#8230;", "datePublished": "2022-12-08T08:10:00+05:30", "dateModified": "2022-12-08T10:06:56+05:30", "image": { "@type": "ImageObject", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZuWAZmu9x_4WkWU0V-TLxP_-QCDZwU4QLFfF3-sGiPC_9wm8EEpKoCjcundhWdsK0itPO-iA21T6cJuO3hwbdGtInaMIbKPt7bM_wYD1SdUv8fvosrpQNq9768UW5TWAi90DZVVnghBc-gDB1hte4mwvWqwHcMx4uyjcDVaOhtUXmHEaxq72O5zvo/w1200-h630-p-k-no-nu/sqlmap.png", "height": 630, "width": 1200 }, "publisher": { "@type": "Organization", "name": "Techncyber", "logo": { "@type": "ImageObject", "url": "https://1.bp.blogspot.com/-aPI4nqwEvcQ/W5Yk_PFZmWI/AAAAAAAABVI/PPPKco4NKVw_A1Vo-ZombbugoingvyDyQCPcBGAYYCw/s1600/20180910_115005.png", "width": 297, "height": 45 } }, "author": { "@type": "Person", "name": "Basudev", "url": "https://www.blogger.com/profile/06001239465028112751", "image": "//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/s113-pf/images%2B%25281%2529.jpeg" } } </script>
+											</div>
+										</article>
+										<!-- ART5 -->
+										<article class='ntry'>
+											<div class='pThmb'><a class='thmb'
+													href='https://www.techncyber.com/2022/11/mass-layoffs.html'><img
+														alt='Mass Layoffs: The Dark Truth Media and Companies might be Hiding '
+														class='imgThm lazy'
+														data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2GVoubhEksVI94xb_t2Ov_3NaDzcx4zVnRbXUcwK3--vmE7ZEwTroKLxS_gYuMNZtn7XMVwdqy7UM2ncjcZitgjIHhfS7cfc2Ele7wcDcPeGCVe97y95XZPz3PnqkafJG0C5OngJiz3FlBARWLp3KlsNe3HtuWD4zqQbZ3s9eeMoUZN25-w_b_GGf/w600-h300-p-k-no-nu/staff-gb0c2babc3_1280.png'
+														src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' /><noscript><img
+															alt='Mass Layoffs: The Dark Truth Media and Companies might be Hiding '
+															class='imgThm'
+															src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2GVoubhEksVI94xb_t2Ov_3NaDzcx4zVnRbXUcwK3--vmE7ZEwTroKLxS_gYuMNZtn7XMVwdqy7UM2ncjcZitgjIHhfS7cfc2Ele7wcDcPeGCVe97y95XZPz3PnqkafJG0C5OngJiz3FlBARWLp3KlsNe3HtuWD4zqQbZ3s9eeMoUZN25-w_b_GGf/w600-h300-p-k-no-nu/staff-gb0c2babc3_1280.png' /></noscript></a>
+											</div>
+											<div class='pCntn'>
+												<div class='pHdr pSml'>
+													<div class='aIm'>
+														<div class='im lazy'
+															data-style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+														</div><noscript>
+															<div class='im'
+																style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+															</div>
+														</noscript>
+													</div>
+													<div class='aNm'><bdi class='nm' data-text='explore '
+															data-write='Oleh'></bdi>
+														<div class='pLbls' data-text='in'><a aria-label='News'
+																data-text='News'
+																href='https://www.techncyber.com/search/label/News'
+																rel='tag'></a><a aria-label='Technology'
+																data-text='Technology'
+																href='https://www.techncyber.com/search/label/Technology'
+																rel='tag'></a></div>
+													</div>
+												</div>
+												<h2 class='pTtl aTtl'><a
+														data-text='Mass Layoffs: The Dark Truth Media and Companies might be Hiding '
+														href='https://www.techncyber.com/2022/11/mass-layoffs.html'
+														rel='bookmark'>Mass Layoffs: The Dark Truth Media and Companies
+														might be Hiding </a></h2>
+												<div class='pSnpt'>It&#39;s about something other than Over hiring, Fake
+													Experience or Lack of budget. Everyone wants to know the truth
+													about&#160; Why Companies Firing Empl&#8230;</div>
+												<div class='pInf pSml'><time class='aTtmp pTtmp pbl'
+														data-text='Dec 7, 2022' datetime='2022-12-07T18:42:00+05:30'
+														title='Published: December 7, 2022'></time><a
+														aria-label='Read more' class='pJmp' data-text='Keep reading'
+														href='https://www.techncyber.com/2022/11/mass-layoffs.html'></a>
+												</div>
+												<script
+													type='application/ld+json'> { "@context": "http://schema.org", "@type": "BlogPosting", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.techncyber.com/2022/11/mass-layoffs.html" }, "headline": "Mass Layoffs: The Dark Truth Media and Companies might be Hiding ", "description": "It\u0026#39;s about something other than Over hiring, Fake Experience or Lack of budget. Everyone wants to know the truth about&#160; Why Companies Firing Employees. &#160;Image by Mohamed Hassan from Pixabay&#160; Big tech companies have good intelligence. We all know&#8230;", "datePublished": "2022-12-07T18:42:00+05:30", "dateModified": "2022-12-07T18:42:21+05:30", "image": { "@type": "ImageObject", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2GVoubhEksVI94xb_t2Ov_3NaDzcx4zVnRbXUcwK3--vmE7ZEwTroKLxS_gYuMNZtn7XMVwdqy7UM2ncjcZitgjIHhfS7cfc2Ele7wcDcPeGCVe97y95XZPz3PnqkafJG0C5OngJiz3FlBARWLp3KlsNe3HtuWD4zqQbZ3s9eeMoUZN25-w_b_GGf/w1200-h630-p-k-no-nu/staff-gb0c2babc3_1280.png", "height": 630, "width": 1200 }, "publisher": { "@type": "Organization", "name": "Techncyber", "logo": { "@type": "ImageObject", "url": "https://1.bp.blogspot.com/-aPI4nqwEvcQ/W5Yk_PFZmWI/AAAAAAAABVI/PPPKco4NKVw_A1Vo-ZombbugoingvyDyQCPcBGAYYCw/s1600/20180910_115005.png", "width": 297, "height": 45 } }, "author": { "@type": "Person", "name": "Basudev", "url": "https://www.blogger.com/profile/06001239465028112751", "image": "//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/s113-pf/images%2B%25281%2529.jpeg" } } </script>
+											</div>
+										</article>
+										<!-- ART6 -->
+										<article class='ntry'>
+											<div class='pThmb'><a class='thmb'
+													href='https://www.techncyber.com/2022/12/what-is-chat-gpt-viral-ai-chatbot.html'><img
+														alt='What is Chat GPT, The Viral AI Chatbot' class='imgThm lazy'
+														data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Sv_dWR5t4XC56M5IG2RJ3K9LQW5WTzF9RGYGUkYhua9HBA5Hoyji2DtWpVFjiCJL1S9Yu15PmukbczdJTWLXQMRXfgOAnvYXZqO3_cb9MEqKymErU9yYjpGvuOa6S0PqQhqkeP6pZ7oc3D7raoEZzaxdL7TPLA2G349nHgc8tBiMqin3XjyI9Pw9/w600-h300-p-k-no-nu/Screenshot_20221206-082219.png'
+														src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' /><noscript><img
+															alt='What is Chat GPT, The Viral AI Chatbot' class='imgThm'
+															src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Sv_dWR5t4XC56M5IG2RJ3K9LQW5WTzF9RGYGUkYhua9HBA5Hoyji2DtWpVFjiCJL1S9Yu15PmukbczdJTWLXQMRXfgOAnvYXZqO3_cb9MEqKymErU9yYjpGvuOa6S0PqQhqkeP6pZ7oc3D7raoEZzaxdL7TPLA2G349nHgc8tBiMqin3XjyI9Pw9/w600-h300-p-k-no-nu/Screenshot_20221206-082219.png' /></noscript></a>
+											</div>
+											<div class='pCntn'>
+												<div class='pHdr pSml'>
+													<div class='aIm'>
+														<div class='im lazy'
+															data-style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+														</div><noscript>
+															<div class='im'
+																style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+															</div>
+														</noscript>
+													</div>
+													<div class='aNm'><bdi class='nm' data-text='explore '
+															data-write='Oleh'></bdi>
+														<div class='pLbls' data-text='in'><a aria-label='Software'
+																data-text='Software'
+																href='https://www.techncyber.com/search/label/Software'
+																rel='tag'></a><a aria-label='Technology'
+																data-text='Technology'
+																href='https://www.techncyber.com/search/label/Technology'
+																rel='tag'></a></div>
+													</div>
+												</div>
+												<h2 class='pTtl aTtl'><a
+														data-text='What is Chat GPT, The Viral AI Chatbot'
+														href='https://www.techncyber.com/2022/12/what-is-chat-gpt-viral-ai-chatbot.html'
+														rel='bookmark'>What is Chat GPT, The Viral AI Chatbot</a></h2>
+												<div class='pSnpt'>ChatGPT is an AI-powered chatbot that can generate
+													natural-sounding conversations in real-time. By leveraging advanced
+													natural language processing an&#8230;</div>
+												<div class='pInf pSml'><time class='aTtmp pTtmp pbl'
+														data-text='Dec 6, 2022' datetime='2022-12-06T08:28:00+05:30'
+														title='Published: December 6, 2022'></time><a
+														aria-label='Read more' class='pJmp' data-text='Keep reading'
+														href='https://www.techncyber.com/2022/12/what-is-chat-gpt-viral-ai-chatbot.html'></a>
+												</div>
+												<script
+													type='application/ld+json'> { "@context": "http://schema.org", "@type": "BlogPosting", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.techncyber.com/2022/12/what-is-chat-gpt-viral-ai-chatbot.html" }, "headline": "What is Chat GPT, The Viral AI Chatbot", "description": "ChatGPT is an AI-powered chatbot that can generate natural-sounding conversations in real-time. By leveraging advanced natural language processing and deep learning, ChatGPT is capable of understanding and responding to human input, allowing it to c&#8230;", "datePublished": "2022-12-06T08:28:00+05:30", "dateModified": "2022-12-06T08:28:35+05:30", "image": { "@type": "ImageObject", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Sv_dWR5t4XC56M5IG2RJ3K9LQW5WTzF9RGYGUkYhua9HBA5Hoyji2DtWpVFjiCJL1S9Yu15PmukbczdJTWLXQMRXfgOAnvYXZqO3_cb9MEqKymErU9yYjpGvuOa6S0PqQhqkeP6pZ7oc3D7raoEZzaxdL7TPLA2G349nHgc8tBiMqin3XjyI9Pw9/w1200-h630-p-k-no-nu/Screenshot_20221206-082219.png", "height": 630, "width": 1200 }, "publisher": { "@type": "Organization", "name": "Techncyber", "logo": { "@type": "ImageObject", "url": "https://1.bp.blogspot.com/-aPI4nqwEvcQ/W5Yk_PFZmWI/AAAAAAAABVI/PPPKco4NKVw_A1Vo-ZombbugoingvyDyQCPcBGAYYCw/s1600/20180910_115005.png", "width": 297, "height": 45 } }, "author": { "@type": "Person", "name": "Basudev", "url": "https://www.blogger.com/profile/06001239465028112751", "image": "//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/s113-pf/images%2B%25281%2529.jpeg" } } </script>
+											</div>
+										</article>
+										<!-- ART7 -->
+										<article class='ntry'>
+											<div class='pThmb'><a class='thmb'
+													href='https://www.techncyber.com/2022/12/termux-commands-list.html'><img
+														alt='Termux Commands List 2023' class='imgThm lazy'
+														data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWnEPgBTTq9PWL77l_d6NlTlxMqH9l3vj3L71JYLJUiaCwYG7fCq5oH4acB7cO-qpQAwQZIBtYsbl6-7wm5ic4jfX3p4y7lAyqOKFQI3D8pqTp2LSUeyzpZh8uwDkMvGoy2q69rFPWqpLVX9jsEuYmagGwmkYswfjDCGbowlfUwRDmjXehIyZDaMco/w600-h300-p-k-no-nu/Termux%20Guide.png'
+														src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' /><noscript><img
+															alt='Termux Commands List 2023' class='imgThm'
+															src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWnEPgBTTq9PWL77l_d6NlTlxMqH9l3vj3L71JYLJUiaCwYG7fCq5oH4acB7cO-qpQAwQZIBtYsbl6-7wm5ic4jfX3p4y7lAyqOKFQI3D8pqTp2LSUeyzpZh8uwDkMvGoy2q69rFPWqpLVX9jsEuYmagGwmkYswfjDCGbowlfUwRDmjXehIyZDaMco/w600-h300-p-k-no-nu/Termux%20Guide.png' /></noscript></a>
+											</div>
+											<div class='pCntn'>
+												<div class='pHdr pSml'>
+													<div class='aIm'>
+														<div class='im lazy'
+															data-style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+														</div><noscript>
+															<div class='im'
+																style='background-image: url(//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/w20-h20-p-k-no-nu/images%2B%25281%2529.jpeg)'>
+															</div>
+														</noscript>
+													</div>
+													<div class='aNm'><bdi class='nm' data-text='explore '
+															data-write='Oleh'></bdi>
+														<div class='pLbls' data-text='in'><a aria-label='Cyber Security'
+																data-text='Cyber Security'
+																href='https://www.techncyber.com/search/label/Cyber%20Security'
+																rel='tag'></a><a aria-label='Ethical Hacking'
+																data-text='Ethical Hacking'
+																href='https://www.techncyber.com/search/label/Ethical%20Hacking'
+																rel='tag'></a></div>
+													</div>
+												</div>
+												<h2 class='pTtl aTtl'><a data-text='Termux Commands List 2023'
+														href='https://www.techncyber.com/2022/12/termux-commands-list.html'
+														rel='bookmark'>Termux Commands List 2023</a></h2>
+												<div class='pSnpt'>What are Termux Commands? in simple words, Termux
+													Commands are the terminal commands, which is executed to perform a
+													particular tas&#8230;</div>
+												<div class='pInf pSml'><time class='aTtmp pTtmp pbl'
+														data-text='Dec 3, 2022' datetime='2022-12-03T08:34:00+05:30'
+														title='Published: December 3, 2022'></time><a
+														aria-label='Read more' class='pJmp' data-text='Keep reading'
+														href='https://www.techncyber.com/2022/12/termux-commands-list.html'></a>
+												</div>
+												<script
+													type='application/ld+json'> { "@context": "http://schema.org", "@type": "BlogPosting", "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.techncyber.com/2022/12/termux-commands-list.html" }, "headline": "Termux Commands List 2023", "description": "What are Termux Commands? in simple words, Termux Commands are the terminal commands, which is executed to perform a particular task. These commands are similar to Linux Commands. Termux Commands List : Important Termux Comm&#8230;", "datePublished": "2022-12-03T08:34:00+05:30", "dateModified": "2022-12-07T19:43:01+05:30", "image": { "@type": "ImageObject", "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWnEPgBTTq9PWL77l_d6NlTlxMqH9l3vj3L71JYLJUiaCwYG7fCq5oH4acB7cO-qpQAwQZIBtYsbl6-7wm5ic4jfX3p4y7lAyqOKFQI3D8pqTp2LSUeyzpZh8uwDkMvGoy2q69rFPWqpLVX9jsEuYmagGwmkYswfjDCGbowlfUwRDmjXehIyZDaMco/w1200-h630-p-k-no-nu/Termux%20Guide.png", "height": 630, "width": 1200 }, "publisher": { "@type": "Organization", "name": "Techncyber", "logo": { "@type": "ImageObject", "url": "https://1.bp.blogspot.com/-aPI4nqwEvcQ/W5Yk_PFZmWI/AAAAAAAABVI/PPPKco4NKVw_A1Vo-ZombbugoingvyDyQCPcBGAYYCw/s1600/20180910_115005.png", "width": 297, "height": 45 } }, "author": { "@type": "Person", "name": "Basudev", "url": "https://www.blogger.com/profile/06001239465028112751", "image": "//1.bp.blogspot.com/-NSoobx2h4Oo/XGmMhE3NbiI/AAAAAAAABfY/flcb3ElVUq4uuH3Tmfe5QGY0if5rdNGKQCK4BGAYYCw/s113-pf/images%2B%25281%2529.jpeg" } } </script>
+											</div>
+										</article>
+<!--comment/ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg-->
+
+
+
+
+
+				<!-- [ Lazy adsense Script with auto ads ]-->
+	<script>/*<![CDATA[*/ var lazyadsense = false; window.addEventListener('scroll', function () { if ((document.documentElement.scrollTop != 0 && lazyadsense === false) || (document.body.scrollTop != 0 && lazyadsense === false)) { (function () { var ad = document.createElement('script'); ad.setAttribute('crossorigin', 'anonymous'); ad.async = true; ad.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0000000000000000'; var sc = document.getElementsByTagName('script')[0]; sc.parentNode.insertBefore(ad, sc); })(); lazyadsense = true; } }, true); /*]]>*/</script>
+	 [ </body> 
+	<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2092647672-widgets.js"></script>
+	<script
+		type='text/javascript'>window['__wavt'] = 'AOuZoY6CSlLGv_cvBI0KVHC2rMp41johzA:1670829887687'; _WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1342081103582288480', '//www.techncyber.com/', '1342081103582288480'); _WidgetManager._SetDataContext([{ 'name': 'blog', 'data': { 'blogId': '1342081103582288480', 'title': 'Techncyber', 'url': 'https://www.techncyber.com/', 'canonicalUrl': 'https://www.techncyber.com/', 'homepageUrl': 'https://www.techncyber.com/', 'searchUrl': 'https://www.techncyber.com/search', 'canonicalHomepageUrl': 'https://www.techncyber.com/', 'blogspotFaviconUrl': 'https://www.techncyber.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': true, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': 'UA-100910379-2', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Techncyber - Atom\x22 href\x3d\x22https://www.techncyber.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Techncyber - RSS\x22 href\x3d\x22https://www.techncyber.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Techncyber - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/1342081103582288480/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/06001239465028112751\x22 /\x3e\n', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'adsenseAutoAds': false, 'boqCommentIframeForm': true, 'loginRedirectParam': '', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/4e9cb753f8a3c3d1', 'plusOneApiSrc': 'https://apis.google.com/js/platform.js', 'disableGComments': true, 'sharing': { 'platforms': [{ 'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': '' }, { 'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook' }, { 'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog' }, { 'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter' }, { 'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest' }, { 'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email' }], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 0, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e' }, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'pageName': '', 'pageTitle': 'Techncyber', 'metaDescription': 'A Blog About Cyber Technology news updates, Tricks, Tips and Ethical Hacking Tutorials, Gadget Reviews and many more' } }, { 'name': 'features', 'data': { 'sharing_get_link_dialog': 'true', 'sharing_native': 'false' } }, { 'name': 'messages', 'data': { 'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link' } }, { 'name': 'template', 'data': { 'name': 'custom', 'localizedName': 'Custom', 'isResponsive': true, 'isAlternateRendering': false, 'isCustom': true } }, { 'name': 'view', 'data': { 'classic': { 'name': 'classic', 'url': '?view\x3dclassic' }, 'flipcard': { 'name': 'flipcard', 'url': '?view\x3dflipcard' }, 'magazine': { 'name': 'magazine', 'url': '?view\x3dmagazine' }, 'mosaic': { 'name': 'mosaic', 'url': '?view\x3dmosaic' }, 'sidebar': { 'name': 'sidebar', 'url': '?view\x3dsidebar' }, 'snapshot': { 'name': 'snapshot', 'url': '?view\x3dsnapshot' }, 'timeslide': { 'name': 'timeslide', 'url': '?view\x3dtimeslide' }, 'isMobile': false, 'title': 'Techncyber', 'description': 'A Blog About Cyber Technology news updates, Tricks, Tips and Ethical Hacking Tutorials, Gadget Reviews and many more', 'url': 'https://www.techncyber.com/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false } }, { 'name': 'widgets', 'data': [{ 'title': 'Techncyber (Header)', 'type': 'Header', 'sectionId': 'header-title', 'id': 'Header1' }, { 'title': 'Mobile Additional Menu', 'type': 'PageList', 'sectionId': 'header-Menu-mobile', 'id': 'PageList002' }, { 'title': 'Social Media', 'type': 'LinkList', 'sectionId': 'header-Menu-mobile', 'id': 'LinkList002' }, { 'title': 'Navigation Menu', 'type': 'HTML', 'sectionId': 'header-Menu', 'id': 'HTML000' }, { 'title': 'Header Icon', 'type': 'TextList', 'sectionId': 'header-icon', 'id': 'TextList000' }, { 'title': 'Try \x27Termux Tutorial\x27', 'type': 'BlogSearch', 'sectionId': 'search-widget', 'id': 'BlogSearch1' }, { 'title': 'Search Suggest', 'type': 'Label', 'sectionId': 'search-widget', 'id': 'Label1' }, { 'title': 'Scroll Menu', 'type': 'LinkList', 'sectionId': 'scroll-menu', 'id': 'LinkList001' }, { 'title': 'Stories', 'type': 'HTML', 'sectionId': 'top-widget', 'id': 'HTML1' }, { 'title': 'Pinned Post', 'type': 'FeaturedPost', 'sectionId': 'top-widget', 'id': 'FeaturedPost1', 'postId': '6824809305022050606' }, { 'title': 'Blog Posts', 'type': 'Blog', 'sectionId': 'main-widget', 'id': 'Blog1', 'posts': [{ 'id': '206746402929123088', 'title': 'How to Install nodejs in termux', 'featuredImage': 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7QLBMSw7yCZvJVvcShaxxu6AYeUw2jm0koXUp2lupeP79X1cOEEvVRUYdLsktuCUK7ZFe-UPzbV4YvG-vL0NKv7YzsC7tsWbdfkAlEDmt-QhOdp8Rcm5AkgMllSkiNw8_iR6VNLAyW183gHWwnObZjr3zXd_XAmI4wlnTLHTVYHd_4HoaGQcWOigg/s16000/node-js-termux-python.png', 'showInlineAds': false }, { 'id': '249256301954228599', 'title': 'Getting Started With Android App Pentesting ', 'featuredImage': 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKXKSl9k6kUmdypmgZnz2IxLiqWJNPhBJwYnRDzgtpbU8tM0SEFYnYce5qAvp1phKq_zjuQSxclGruUMiGYnEh3zVHQ1RTGEqyJJ_cDkX0bwyTYOASSwNl1yeqDsc8CGTOohjDDBwVV1lDGQac7IXbYNpM9n-2RtYsRh5y3qdrUeYy-MkDH2VP7i5W/s16000/android-pentesting.png', 'showInlineAds': false }, { 'id': '4468857643168207219', 'title': 'How to install python in termux', 'featuredImage': 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjcadVGOoqRaocI4msmDmjkMnvnhXYCpQ3ErPWOoqKxZYhLUP6Pfrhz2U-u8IDHCRJwPBS6-zbyPJlEyuVDrzgPXy5XGYhBEgTKtvVezRS8V8MTAlmNRRxqNuUU-CueUPPdtSlCyYK5pHmG7RyRu7sk89xn2JY_yaxyY7B9soPIBL0pgiuGfIMRhSm/s16000/termux-python.png', 'showInlineAds': false }, { 'id': '217706146786645526', 'title': 'How to use sqlmap in termux', 'featuredImage': 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZuWAZmu9x_4WkWU0V-TLxP_-QCDZwU4QLFfF3-sGiPC_9wm8EEpKoCjcundhWdsK0itPO-iA21T6cJuO3hwbdGtInaMIbKPt7bM_wYD1SdUv8fvosrpQNq9768UW5TWAi90DZVVnghBc-gDB1hte4mwvWqwHcMx4uyjcDVaOhtUXmHEaxq72O5zvo/s16000/sqlmap.png', 'showInlineAds': false }, { 'id': '5365620952336883658', 'title': 'Mass Layoffs: The Dark Truth Media and Companies might be Hiding ', 'featuredImage': 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2GVoubhEksVI94xb_t2Ov_3NaDzcx4zVnRbXUcwK3--vmE7ZEwTroKLxS_gYuMNZtn7XMVwdqy7UM2ncjcZitgjIHhfS7cfc2Ele7wcDcPeGCVe97y95XZPz3PnqkafJG0C5OngJiz3FlBARWLp3KlsNe3HtuWD4zqQbZ3s9eeMoUZN25-w_b_GGf/s16000/staff-gb0c2babc3_1280.png', 'showInlineAds': false }, { 'id': '4209501072972035030', 'title': 'What is Chat GPT, The Viral AI Chatbot', 'featuredImage': 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Sv_dWR5t4XC56M5IG2RJ3K9LQW5WTzF9RGYGUkYhua9HBA5Hoyji2DtWpVFjiCJL1S9Yu15PmukbczdJTWLXQMRXfgOAnvYXZqO3_cb9MEqKymErU9yYjpGvuOa6S0PqQhqkeP6pZ7oc3D7raoEZzaxdL7TPLA2G349nHgc8tBiMqin3XjyI9Pw9/w236-h400/Screenshot_20221206-082219.png', 'showInlineAds': false }, { 'id': '5803745178124503391', 'title': 'Termux Commands List 2023', 'featuredImage': 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWnEPgBTTq9PWL77l_d6NlTlxMqH9l3vj3L71JYLJUiaCwYG7fCq5oH4acB7cO-qpQAwQZIBtYsbl6-7wm5ic4jfX3p4y7lAyqOKFQI3D8pqTp2LSUeyzpZh8uwDkMvGoy2q69rFPWqpLVX9jsEuYmagGwmkYswfjDCGbowlfUwRDmjXehIyZDaMco/s16000/Termux%20Guide.png', 'showInlineAds': false }], 'headerByline': { 'regionName': 'header1', 'items': [{ 'name': 'author', 'label': 'Oleh' }, { 'name': 'timestamp', 'label': 'On' }] }, 'footerBylines': [{ 'regionName': 'footer1', 'items': [{ 'name': 'share', 'label': '' }, { 'name': 'comments', 'label': 'Comment' }, { 'name': 'labels', 'label': 'in' }] }], 'allBylineItems': [{ 'name': 'author', 'label': 'Oleh' }, { 'name': 'timestamp', 'label': 'On' }, { 'name': 'share', 'label': '' }, { 'name': 'comments', 'label': 'Comment' }, { 'name': 'labels', 'label': 'in' }] }, { 'title': 'Ad placement', 'type': 'HTML', 'sectionId': 'add-widget', 'id': 'HTML94' }, { 'title': 'Author Profile', 'type': 'Profile', 'sectionId': 'side-widget', 'id': 'Profile1' }, { 'title': 'Popular Posts', 'type': 'PopularPosts', 'sectionId': 'side-widget', 'id': 'PopularPosts00', 'posts': [{ 'title': 'How To Install Kali Nethunter in Termux', 'id': 6704331764058731433 }, { 'title': 'How To Install SSH On Termux', 'id': 8595294963663777826 }, { 'title': 'Ultimate Guide To : Ethical Hacking With Termux', 'id': 8423168252909700530 }, { 'title': 'What is Chat GPT, The Viral AI Chatbot', 'id': 4209501072972035030 }, { 'title': 'How To Use Metasploit In Termux ', 'id': 7622213634674176833 }] }, { 'title': 'Labels', 'type': 'Label', 'sectionId': 'side-widget', 'id': 'Label00' }, { 'title': 'Made with \u2764 by', 'type': 'HTML', 'sectionId': 'footer-widget-1', 'id': 'HTML77' }, { 'title': 'Social Media Link', 'type': 'LinkList', 'sectionId': 'footer-widget-1', 'id': 'LinkList1' }, { 'title': 'Company', 'type': 'LinkList', 'sectionId': 'footer-widget-2', 'id': 'LinkList2' }, { 'title': 'Product \x26amp; Service', 'type': 'LinkList', 'sectionId': 'footer-widget-3', 'id': 'LinkList3' }, { 'title': 'Join Telegram Channel', 'type': 'HTML', 'sectionId': 'footer-widget-4', 'id': 'HTML3' }, { 'title': 'Credit', 'type': 'HTML', 'sectionId': 'credit-widget', 'id': 'HTML88' }, { 'title': 'Back to top', 'type': 'TextList', 'sectionId': 'credit-widget', 'id': 'TextList88' }, { 'title': 'Take me back', 'type': 'HTML', 'sectionId': 'error-404', 'id': 'HTML404' }] }]); _WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header-title', document.getElementById('Header1'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList002', 'header-Menu-mobile', document.getElementById('PageList002'), { 'title': 'Mobile Additional Menu', 'links': [{ 'isCurrentPage': false, 'href': 'https://www.techncyber.com/p/write-for-us.html', 'id': '7151793981907107846', 'title': 'Write for us' }, { 'isCurrentPage': false, 'href': '/p/sitemap_98.html', 'title': 'Sitemap' }, { 'isCurrentPage': false, 'href': '/p/disclaimer.html', 'title': 'Disclaimer' }, { 'isCurrentPage': false, 'href': '/p/privacy-policy.html', 'title': 'Privacy' }], 'mobile': false }, 'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList002', 'header-Menu-mobile', document.getElementById('LinkList002'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML000', 'header-Menu', document.getElementById('HTML000'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_TextListView', new _WidgetInfo('TextList000', 'header-icon', document.getElementById('TextList000'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_BlogSearchView', new _WidgetInfo('BlogSearch1', 'search-widget', document.getElementById('BlogSearch1'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'search-widget', document.getElementById('Label1'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList001', 'scroll-menu', document.getElementById('LinkList001'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'top-widget', document.getElementById('HTML1'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_FeaturedPostView', new _WidgetInfo('FeaturedPost1', 'top-widget', document.getElementById('FeaturedPost1'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main-widget', document.getElementById('Blog1'), { 'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1640955195-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/4046960807-lightbox_bundle.css' }, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML94', 'add-widget', document.getElementById('HTML94'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'side-widget', document.getElementById('Profile1'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts00', 'side-widget', document.getElementById('PopularPosts00'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label00', 'side-widget', document.getElementById('Label00'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML77', 'footer-widget-1', document.getElementById('HTML77'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'footer-widget-1', document.getElementById('LinkList1'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList2', 'footer-widget-2', document.getElementById('LinkList2'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList3', 'footer-widget-3', document.getElementById('LinkList3'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'footer-widget-4', document.getElementById('HTML3'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML88', 'credit-widget', document.getElementById('HTML88'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_TextListView', new _WidgetInfo('TextList88', 'credit-widget', document.getElementById('TextList88'), {}, 'displayModeFull')); _WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML404', 'error-404', document.getElementById('HTML404'), {}, 'displayModeFull'));</script>				
