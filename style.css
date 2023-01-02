@@ -417,6 +417,16 @@ footer {
     text-align: center;
     margin-left: 0px;
   }
+  
+    .Main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+    width: 100vw;
+    position: relative;
+    top: -59px;
+  }
+  
   .btns {
     display: flex;
     flex-direction: column;
@@ -554,11 +564,20 @@ footer {
   }
   .Main p {
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
     text-align: center;
     margin-left: 0px;
     font-size: 16px;
     padding: 0px 20px;
+  }
+    .Main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+    width: 100vw;
+    position: relative;
+    top: -59px;
   }
 
   .btn-1 {
